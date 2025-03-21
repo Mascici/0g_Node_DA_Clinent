@@ -74,6 +74,11 @@ After done, u can start node  :
 docker run -d --env-file envfile.env --name 0g-da-client -v ./run:/runtime -p 51001:51001 0g-da-client combined 
 ```
 
+To Check Running Container :
+```
+sudo docker ps -a
+```
+
 # DONE
 
 
